@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contact us</title>
+  <link href="//fonts.googleapis.com/css?family=Oswald:300,400,500,600&display=swap" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+  
+  ;
+}
+.main{
+  width:100%;
+  background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url();
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: lightblue;
+
+}
+.navbar{
+  width: 1200px;
+  height: 74px;
+  margin: auto;
+}
+.logo{
+  color: #fff;
+  font-size: 30px;
+  padding: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.los{
+  margin-bottom: 0;
+  color: #ff7315;
+  font-size: 30px;
+}
+.logo:hover {
+  color: #fff;
+}
+.menu{
+  width: 500px;
+  height: 70px;
+  position: absolute;
+  top: -10px;
+  bottom: 50px;
+  left: 400px;
+  border-radius: 25px;
+  padding: 30px;
+  
+}
+ul{
+ 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ul li{
+  display: flex;
+  list-style: none;
+  margin-left: 65px;
+  margin-top: 35px;
+  font-size: 14px;
+}
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.nav-link:hover{
+  color:#ff7200;
+}
+
+.fo{
+  width: 300px;
+  height: 70%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.fo h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+
+  background-color: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.in{
+   width: 240px;
+   height: 50px;
+   background: transparent;
+   border-bottom: 1px solid #ff7200;
+   border-top: none;
+   border-right: none;
+   color: #fff;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+}
+.fo input:focus{
+  outline: none;
+}
+
+.fo textarea{
+  width: 240px;
+   height: 35px;
+   background: transparent;
+   border-bottom: 1px solid #ff7200;
+   border-top: none;
+   border-right: none;
+   color: #fff;
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   background-color:#000;
+
+}
+.fo textarea:focus{
+  outline: none;
+}
+::placeholder input{
+  color: #fff;
+  font-family: Arial;
+}
+
+
+.btn{
+  width: 240px;
+  height: 50px;
+  background-color:darkgray;
+  border: none;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+   transition: 0.4s ease;
+
+}
+
+.btn:hover{
+  background:#ff7315;
+}
+
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+
+
+  </style>
+   
+</head>
+<body>
+  
+    <div class="main">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid serarc-fluid">
+         <div class="navbar">
+          
+            <div class="logo"><a class="navbar-brand" href="index.html">
+               <span class="logo">E-FURN</span></span><span class="los">I</span><span class="logo">TURE</span></a></div>
+         </div>
+         <button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon fa fa-bars"> </span>
+					</button>
+         
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+               <li><a class="nav-link" href="about.html">About</a></li>
+               <li><a class="nav-link" href="about.html">What We Offer</a></li> 
+               <li><a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+            
+         </div> 
+        </div>
+      </nav>
+         <div class="fo">
+               <h2>Contact Us</h2>
+            <form action="store.php" method="post" autocomplete="off">
+                <input type="text" name="uname" placeholder="Enter your name"  class="in" required><br />
+                <input type="email" name="email" placeholder="Enter your email"  class="in"  required><br />
+                <textarea name="address" placeholder="address" cols="60" rows="15"  class="in"  required></textarea><br />
+                <input type="text" name="filel" placeholder="upload reference drive link"  class="in" ><br />
+                <textarea name="description" placeholder="Enter your description" cols="40" rows="15"  class="in"   required></textarea><br />
+                <input type="submit" value="submit" class="btn">
+
+             </form>
+         </div>
+    </div> 
+  
+</body>
+</html>
